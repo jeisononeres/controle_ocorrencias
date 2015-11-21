@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title></title>
+	<script type="text/javascript" src="js/libs/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/libs/angular/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/libs/angular/angular-resource.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/controller/MainCtrl.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/app/main.css">
+</head>
+<body>
+	<div ng-include="'view/menu.html'"></div>
+	<div ng-view></div>
+</body>
+</html>
